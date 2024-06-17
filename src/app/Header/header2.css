@@ -1,0 +1,112 @@
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-caption {
+  bottom: 270px;
+}
+
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p {
+  width: 75%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background: #fff;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link {
+  padding: 0.2rem 1rem;
+}
+
+.nav-link.active,
+.nav-link:focus {
+  color: #fff;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.nav-btn {
+  word-wrap: normal;
+  border-radius: 50px;
+  background-image: linear-gradient(135deg, #feb692 0%, #356def 100%);
+  box-shadow: 0 5px 7.5px 1.5px rgba(97, 151, 238, 0.5);
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  color: white;
+}
+
+.search-input {
+  border: 2px solid #cccccc8c;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-size: 16px;
+  width: 300px;
+  outline: none;
+  background-color: #f0f0f018;
+  color: #040404;
+}
+
+.search-input:focus {
+  border-color: #302f2fac;
+  background-color: #ffffffad;
+}
+
+.search-icon {
+  color: #090909;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.search-icon:hover {
+  color: #040404;
+}

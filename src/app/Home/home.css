@@ -1,0 +1,47 @@
+/* header {
+    background-color: #333;
+    padding: 1rem;
+    width: 100%;
+    margin-left: 10px;
+   }
+   
+   header h1 {
+    color: white;
+    margin: 0;
+   }
+   
+   nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+   }
+   
+   nav ul li a {
+    color: white;
+    text-decoration: none;
+   }
+
+   .button-align{
+    margin-left: 777px;
+   } */
+   .button-css {
+    color: white;
+    padding: 0.4em 1.7em;   
+    font-size: 14px;
+    border-radius: 0.5em;
+    background: black;
+    cursor: pointer;
+    border: 1px solid grey;
+    transition: all 0.3s;
+    box-shadow: 1.5px 1.5px 3px grey, -6px -6px 12px black;
+  }
+  
+  .button-css:hover {
+    border: 1px solid black;
+  }
+  
+  .button-css:active {
+    box-shadow: 4px 4px 12px grey, -4px -4px 12px black;
+  }
+  

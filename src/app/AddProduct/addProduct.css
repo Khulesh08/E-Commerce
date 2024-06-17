@@ -1,0 +1,106 @@
+.submission-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .submission-table th, .submission-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .submission-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .button {
+    margin:  auto;
+    display: block;
+  }
+  
+  .header-font{
+    color: black;
+  }
+  .error-message{
+    color: red;
+    size: 0.5cm;
+  }
+
+  .form-container{
+    border-radius: 19px;
+  background: linear-gradient(315deg, #f0f0f0, #cacaca);
+  box-shadow:  -41px -41px 51px #989898,
+               41px 41px 51px #ffffff;
+  }
+  
+  
+  
+  .truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px; 
+  }
+
+  .bg-color{
+    background-color: rgba(12, 12, 12, 0.348);
+  }
+  
+
+  .product-card {
+    background-color: rgba(255, 255, 255, 0.065);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 500px;
+    flex: 1 0 300px; 
+    margin: 10px;
+    font-size: medium;
+    color:rgb(255, 255, 255)
+    
+	
+   }
+
+   .cart-button {
+    padding: 7px 20px;
+    border: black;
+    border-radius: 8px;  
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif  ;
+    /* -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27); */
+    /* box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27); */
+    transition: all 250ms;
+    /* overflow: hidden; */
+  }
+  
+  .cart-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 6px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+  }
+  
+  .cart-button:hover {
+    color: #e8e8e8;
+  }
+  
+  .cart-button:hover::before {
+    width: 100%;
+    height: 100%;
+  }
+  
