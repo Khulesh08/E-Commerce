@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'C:\Users\office-31\OneDrive\Desktop\JigishNextJs\shopping-cart\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+  Error: EPERM: operation not permitted, unlink 'C:\Users\office-31\OneDrive\Desktop\KhuleshNextJs\shopping-cart\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
 
 npm manifest: 
   {
